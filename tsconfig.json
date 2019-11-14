@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "strictNullChecks": true,
+    "esModuleInterop": true,
+    "importHelpers": true,
+    "baseUrl": ".",
+    "allowSyntheticDefaultImports": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "module": "ESNext",
+    "noImplicitAny": true,
+    "outDir": "./dist",
+    "target": "es2015",
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "skipLibCheck": false,
+    "sourceMap": false,
+    "declaration": true,
+    "paths": {
+      "@/*": ["./*"],
+      "express-api-bootstrap": ["."]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}

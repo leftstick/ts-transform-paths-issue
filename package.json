@@ -1,0 +1,27 @@
+{
+  "name": "ts-transform-paths-issue",
+  "version": "1.0.0",
+  "description": "issue example for https://github.com/zerkalica/zerollup/issues/19",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "node build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leftstick/ts-transform-paths-issue.git"
+  },
+  "author": "Howard.Zuo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leftstick/ts-transform-paths-issue/issues"
+  },
+  "homepage": "https://github.com/leftstick/ts-transform-paths-issue#readme",
+  "devDependencies": {
+    "@zerollup/ts-transform-paths": "^1.7.6",
+    "@rollup/plugin-json": "^4.0.0",
+    "rollup": "^1.27.0",
+    "rollup-plugin-auto-external": "^2.0.0",
+    "rollup-plugin-typescript2": "^0.25.2",
+    "typescript": "^3.7.2"
+  }
+}
